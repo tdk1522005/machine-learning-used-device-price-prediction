@@ -1,0 +1,26 @@
+{
+  "test_metrics": {
+    "xgboost": {
+      "mae": 0.1794,
+      "mse": 0.0511,
+      "rmse": 0.2260,
+      "r2": 0.8495
+    },
+    "random_forest": {
+      "mae": 0.1833,
+      "mse": 0.0540,
+      "rmse": 0.2323,
+      "r2": 0.8409
+    },
+    "linear_regression": {
+      "mae": 0.1886,
+      "mse": 0.0574,
+      "rmse": 0.2396,
+      "r2": 0.8309
+    }
+  },
+  "best_cross_validation_r2": {
+    "xgboost": 0.8528,
+    "random_forest": 0.8486
+  }
+}
